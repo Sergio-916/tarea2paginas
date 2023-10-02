@@ -1,0 +1,73 @@
+
+.container {
+    width: 900px;
+    height: 300px;
+    background-color:rgb(33, 102, 105);
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja2 {
+    width: 850px;
+    height: 250px;
+    align-self: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.caja3 p{
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: 500;  
+}
+.caja3 h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.caja3 .button {
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;      
+    color: #fff;
+    font-size: 18px;  
+    opacity: 0.8;
+}
+.button:hover {
+    cursor: pointer;
+}
+.caja3 {
+    color: #fff;    
+}
+
+.caja4 {
+    background-image: url(./imagines/motorcycle-746139_1280.jpg);
+    width: 400px;
+    height: auto;
+    background-size: cover;
+    border-radius: 15px;
+}
+.button2{
+    margin-top: 80px;
+    margin-left: 50px;
+    width: 120px;
+    height: 50px;
+    background-color: grey;
+    border: solid 2px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.button2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.button2 :hover {
+    cursor: pointer;
+}
